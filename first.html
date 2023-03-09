@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(241, 238, 238);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(237, 227, 227, 0.998);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bg-container" >
+            <div class="mini-card">
+            <h1 class="mini-heading">Traffic Signal Timer control</h1>
+            
+                
+            </p>
+            
+
+            <form>
+                <font color="white">
+
+                <form action="/action_page.php">
+                <label for="Ploc">Enter the location:</label><br>
+                <br>
+                
+                <select name="cities" id="cities">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nizamabad">Nizamabad</option>
+                <option value="vizag">vizag</option>
+                <option value="Tirupathi">Tirupathi</option>
+                </select>
+                <div id="textBoxContainer">
+
+                </div>
+                <br><br>
+               
+                </font>
+        
+            </form>
+
+           
+            <link rel="stylesheet" href="front.css">
+            <a href="../second.html" class="btn btn-light">submit</a>
+            </div>
+        </div>
+
+
+    </body>
+</html>

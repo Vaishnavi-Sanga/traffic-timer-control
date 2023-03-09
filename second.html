@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+</style>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bg-container" >
+            <div class="mini-card">
+              <div class="container">
+                <font color="white">
+                <h2>Select Area</h2>
+              </font>
+                                                       
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">City
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Kukatpally</a></li>
+                    
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Gachibowli<span class="caret"></span></a>
+                      <a class="test" tabindex="-1" href="#">Nizampet<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="#">>Roadno.6</a></li>
+                        <li><a tabindex="-1" href="#">>Roadno.7</a></li>
+                        <li><a tabindex="-1" href="#">>Roadno.8</a></li>
+                        <li><a tabindex="-1" href="#">>Roadno.9</a></li>
+
+
+                        <li class="dropdown-submenu">
+                          <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">3rd level dropdown</a></li>
+                            <li><a href="#">3rd level dropdown</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <script>
+                $(document).ready(function(){
+                  $('.dropdown-submenu a.test').on("click", function(e){
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                  });
+                });
+
+                $('#dropdown').change(function(){
+                $('#textBoxContainer').empty();
+                var number = $(this).find('option:selected').attr('data-number');
+                for (var i = 0; i < number; i++){
+                $('#textBoxContainer').append('<input type="text"/>');
+              }
+              });
+                </script>
+             
+                
+            </p>
+            
+
+            <form>
+                <font color="white">
+
+                <form action="/action_page.php">
+                
+                
+               
+                </font>
+        
+            </form>
+            
+            <link rel="stylesheet" href="test.css">
+            <a href="../second.html" class="btn btn-light">submit</a>
+            </div>
+        </div>

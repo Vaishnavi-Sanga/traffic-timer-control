@@ -1,0 +1,40 @@
+.bg-container{
+    background-image:url(https://img.freepik.com/free-photo/beautyful-traffic-seoul-night-cityscape-south-korea-with-motion-blur_335224-416.jpg?size=626&ext=jpg&ga=GA1.2.1481012922.1668049238);
+    height:100vh;
+    background-size:cover;
+    padding:18px;
+    text-align:center;
+
+
+}
+.mini-heading{
+    text-align:center;
+    padding:5px;
+    color:white;
+    font-size:80px;
+    font-family:"Roboto"
+    padding:0px;
+
+}
+.min-paragraph{
+    text-align:end;
+    color:white;
+    font-size:12px;
+    font-family:"Bree Serif";
+    font-weight:600;
+    padding:0px;
+
+}
+.button{
+    color:white;
+    background-color:orangered;
+    width:140px;
+    height: 38px;
+    border-radius:25px;
+    
+    
+}
+.form{
+    color:white;
+    padding:0px;
+}
